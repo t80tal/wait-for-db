@@ -13,4 +13,4 @@ python wait_for_db.py <host> <port> && <your next action>
 For example (I used it with Docker):
 
 ```bash
-python wait_for_db.py postgres 5432 && python manage.py runserver 0.0.0.0:8000
+python wait_for_db.py localhost 5432 && python manage.py runserver 0.0.0.0:8000
